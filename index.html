@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#176b73">
+<meta name="description" content="2026年10月8日〜11日の北海道30周年旅行アプリ">
+<title>北海道30周年旅行</title>
+<style>
+:root{--main:#176b73;--deep:#0e4f58;--sky:#e9f5f4;--orange:#d98252;--ink:#243338;--muted:#6c7b7f;--bg:#f4f7f6;--white:#fff;--line:#dfe8e6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.55}
+.hero{background:linear-gradient(160deg,#0e4f58,#2b8186);color:#fff;padding:24px 18px 22px;position:relative;overflow:hidden}.hero:after{content:"🌲　🦌　🌲";position:absolute;right:-8px;bottom:8px;font-size:45px;opacity:.18}
+.badge{display:inline-block;padding:5px 10px;border-radius:99px;background:#ffffff22;border:1px solid #ffffff45;font-size:12px}
+h1{font-size:27px;line-height:1.25;margin:10px 0 5px}.subtitle{font-size:13px;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:18px}.stat{background:#ffffff18;border:1px solid #ffffff28;border-radius:12px;padding:9px;text-align:center}.stat b{display:block;font-size:17px}.stat span{font-size:10px}
+.nav{position:sticky;top:0;z-index:20;background:#fffffff2;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;gap:7px;padding:8px;overflow:auto}.nav a{white-space:nowrap;text-decoration:none;color:var(--main);font-weight:800;font-size:12px;border:1px solid #cbdedc;border-radius:20px;padding:7px 10px;background:#fff}
+main{max-width:760px;margin:auto;padding:12px 12px 80px}.card{background:#fff;border:1px solid #e6eceb;border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 4px 18px #173b4210}.section-title{display:flex;align-items:center;justify-content:space-between;gap:8px}.section-title h2{margin:0;color:var(--deep);font-size:20px}.daytag{font-size:11px;font-weight:800;color:var(--main);background:var(--sky);padding:5px 8px;border-radius:8px}
+.heroimg{border-radius:14px;background:linear-gradient(135deg,#dff0ef,#f8eadf);padding:12px;margin:12px 0;font-size:14px}.heroimg .emoji{font-size:32px;float:right}
+.timeline{margin-top:10px}.item{display:grid;grid-template-columns:55px 18px 1fr;gap:7px;min-height:52px}.tm{font-size:13px;font-weight:900;color:var(--orange);padding-top:3px}.dotcol{position:relative}.dot{width:11px;height:11px;border-radius:50%;background:var(--main);margin:7px auto 0;position:relative;z-index:2}.dotcol:after{content:"";position:absolute;top:18px;bottom:-4px;left:8px;width:1px;background:#cbdad8}.item:last-child .dotcol:after{display:none}.desc{padding-bottom:10px;font-size:14px}.notice{background:#fff7f1;border-left:5px solid var(--orange);padding:11px 12px;border-radius:10px;font-size:13px;margin:11px 0}.tip{background:#eef8f7;border-left:5px solid var(--main);padding:11px 12px;border-radius:10px;font-size:13px;margin:11px 0}
+.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.btn{display:inline-block;text-decoration:none;color:white;background:var(--main);padding:8px 11px;border-radius:9px;font-size:12px;font-weight:800}.btn.secondary{background:#eaf1f0;color:var(--deep)}
+details{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0}summary{font-weight:800;cursor:pointer}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.mini{background:#f8faf9;border-radius:12px;padding:11px;font-size:12px}.mini b{display:block;font-size:14px;margin-bottom:3px}
+.check{display:flex;gap:9px;align-items:flex-start;padding:7px 0;font-size:13px}.check input{width:20px;height:20px;accent-color:var(--main);margin-top:1px}
+.bottom{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#ffffffed;backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding:7px max(8px,env(safe-area-inset-left)) max(7px,env(safe-area-inset-bottom))}.bottom a{text-align:center;text-decoration:none;color:var(--muted);font-size:10px;font-weight:800}.bottom span{display:block;font-size:18px}
+.small{font-size:11px;color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:11px;padding:10px 0 20px}
+@media(min-width:600px){.hero{padding-left:calc((100% - 736px)/2);padding-right:calc((100% - 736px)/2)}main{padding-top:20px}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <span class="badge">ANNIVERSARY TRIP 2026</span>
+  <h1>🦌 北海道<br>30周年旅行</h1>
+  <div class="subtitle">2026.10.08 THU — 10.11 SUN　｜　2人の記念旅行</div>
+  <div class="stats"><div class="stat"><b>4日</b><span>3泊4日</span></div><div class="stat"><b>約600–700km</b><span>走行目安</span></div><div class="stat"><b>19:10</b><span>女満別→羽田</span></div></div>
+</header>
+<nav class="nav"><a href="#day1">DAY 1</a><a href="#day2">DAY 2</a><a href="#day3">DAY 3</a><a href="#day4">DAY 4</a><a href="#info">INFO</a></nav>
+<main>
+
+<section class="card">
+<div class="section-title"><h2>✨ 旅のテーマ</h2><span class="daytag">30TH</span></div>
+<div class="heroimg"><span class="emoji">❤️</span><b>「全部見る」より「二人で楽しむ」</b><br>景色・温泉・食事・ドライブを無理なく。疲れたら予定を減らしてOK。</div>
+<div class="grid">
+<div class="mini"><b>🚙 ドライブ</b>稚内 → 女満別</div>
+<div class="mini"><b>🏨 3泊</b>稚内 → 紋別 → 知床</div>
+<div class="mini"><b>🌅 優先</b>白い道・知床五湖</div>
+<div class="mini"><b>🧳 荷物</b>機内持込サイズ2個程度</div>
+</div>
+</section>
+
+<section id="day1" class="card">
+<div class="section-title"><h2>DAY 1｜10/8</h2><span class="daytag">稚内・宗谷</span></div>
+<div class="heroimg"><span class="emoji">🌊</span><b>北の大地スタート</b><br>白い道と宗谷岬を優先。時間が押したらノシャップ岬を短縮。</div>
+<div class="timeline">
+<div class="item"><div class="tm">10:55</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>羽田 出発</b></div></div>
+<div class="item"><div class="tm">12:45</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>稚内空港 到着</b></div></div>
+<div class="item"><div class="tm">13:15</div><div class="dotcol"><div class="dot"></div></div><div class="desc">レンタカー手続き・出発</div></div>
+<div class="item"><div class="tm">13:50</div><div class="dotcol"><div class="dot"></div></div><div class="desc">昼食</div></div>
+<div class="item"><div class="tm">14:40</div><div class="dotcol"><div class="dot"></div></div><div class="desc">ノシャップ岬</div></div>
+<div class="item"><div class="tm">15:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>白い道</b></div></div>
+<div class="item"><div class="tm">16:15</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>宗谷岬</b></div></div>
+<div class="item"><div class="tm">17:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">稚内市街へ</div></div>
+<div class="item"><div class="tm">18:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>サフィールホテル稚内</b> チェックイン・夕食</div></div>
+</div>
+<div class="notice">⚠️ <b>白い道：</b>2026年は宗谷岬ウインドファーム関連工事により、周辺で一時的な通行規制の可能性があります。出発直前に確認してください。</div>
+<div class="actions"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=宗谷岬">📍 宗谷岬</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=ノシャップ岬">📍 ノシャップ岬</a></div>
+</section>
+
+<section id="day2" class="card">
+<div class="section-title"><h2>DAY 2｜10/9</h2><span class="daytag">猿払・エサヌカ・紋別</span></div>
+<div class="heroimg"><span class="emoji">🛣️</span><b>まっすぐな道を楽しむ日</b><br>長距離なので「走る→休む」を意識。</div>
+<div class="timeline">
+<div class="item"><div class="tm">7:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">朝食</div></div>
+<div class="item"><div class="tm">7:45</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>稚内 出発</b></div></div>
+<div class="item"><div class="tm">8:45</div><div class="dotcol"><div class="dot"></div></div><div class="desc">猿払・道の駅などで休憩</div></div>
+<div class="item"><div class="tm">9:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>エサヌカ線</b></div></div>
+<div class="item"><div class="tm">11:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc">枝幸方面で昼食</div></div>
+<div class="item"><div class="tm">12:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc">紋別方面へ</div></div>
+<div class="item"><div class="tm">14:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">雄武・興部周辺で休憩</div></div>
+<div class="item"><div class="tm">15:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>紋別 到着</b></div></div>
+<div class="item"><div class="tm">16:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>紋別プリンスホテル</b>・温泉</div></div>
+</div>
+<div class="tip">🚗 長距離運転の日。疲れを感じる前に休憩。夜はホテルでゆっくり。</div>
+</section>
+
+<section id="day3" class="card">
+<div class="section-title"><h2>DAY 3｜10/10</h2><span class="daytag">サロマ・網走・知床</span></div>
+<div class="heroimg"><span class="emoji">♨️</span><b>30周年の夜は知床で</b><br>観光を詰めすぎず、ホテルの展望風呂と夕食を楽しむ。</div>
+<div class="timeline">
+<div class="item"><div class="tm">7:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">朝食</div></div>
+<div class="item"><div class="tm">8:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>紋別 出発</b></div></div>
+<div class="item"><div class="tm">9:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc">サロマ湖</div></div>
+<div class="item"><div class="tm">12:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">網走・昼食</div></div>
+<div class="item"><div class="tm">13:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">知床方面へ</div></div>
+<div class="item"><div class="tm">15:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>オシンコシンの滝</b></div></div>
+<div class="item"><div class="tm">16:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>知床第一ホテル</b> 到着</div></div>
+<div class="item"><div class="tm">18:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">夕食「マルスコイ」など</div></div>
+</div>
+<div class="notice">🎉 10/10〜10/11は知床サステナブルフェス予定。人出・交通量増加の可能性があります。</div>
+<div class="tip">❤️ 夕食・温泉・客室からの景色を楽しむ時間をしっかり確保。</div>
+</section>
+
+<section id="day4" class="card">
+<div class="section-title"><h2>DAY 4｜10/11</h2><span class="daytag">知床五湖・網走・空港</span></div>
+<div class="heroimg"><span class="emoji">🍂</span><b>旅のハイライト・知床五湖</b><br>高架木道を中心に、当日のヒグマ情報を確認して安全第一。</div>
+<div class="timeline">
+<div class="item"><div class="tm">7:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">ホテル朝食</div></div>
+<div class="item"><div class="tm">8:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">チェックアウト</div></div>
+<div class="item"><div class="tm">8:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>知床五湖</b>・高架木道</div></div>
+<div class="item"><div class="tm">10:15</div><div class="dotcol"><div class="dot"></div></div><div class="desc">プユニ岬（時間があれば）</div></div>
+<div class="item"><div class="tm">11:00</div><div class="dotcol"><div class="dot"></div></div><div class="desc">知床方面 出発</div></div>
+<div class="item"><div class="tm">12:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc">網走・昼食</div></div>
+<div class="item"><div class="tm">13:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>博物館 網走監獄</b></div></div>
+<div class="item"><div class="tm">15:45</div><div class="dotcol"><div class="dot"></div></div><div class="desc">メルヘンの丘（時間があれば）</div></div>
+<div class="item"><div class="tm">16:15</div><div class="dotcol"><div class="dot"></div></div><div class="desc">給油</div></div>
+<div class="item"><div class="tm">16:30</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>女満別空港・返却</b></div></div>
+<div class="item"><div class="tm">19:10</div><div class="dotcol"><div class="dot"></div></div><div class="desc"><b>女満別 → 羽田</b></div></div>
+</div>
+<div class="notice">🐻 地上遊歩道は当日のヒグマ情報・現地ルールを確認。高架木道は無料・手続き不要で利用しやすいです。</div>
+<div class="actions"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=知床五湖">📍 知床五湖</a><a class="btn secondary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=博物館網走監獄">📍 網走監獄</a></div>
+</section>
+
+<section id="info" class="card">
+<div class="section-title"><h2>ℹ️ 旅のインフォ</h2><span class="daytag">SAFETY</span></div>
+<details open><summary>🚙 ドライブ安全</summary><ul><li>エゾシカは早朝・夕方に特に注意。</li><li>暗くなる前に宿へ。無理な夜間走行をしない。</li><li>給油は稚内・紋別・女満別周辺で早めに。</li><li>全行程約600〜700km。休憩多め。</li></ul></details>
+<details><summary>🐻 知床五湖</summary><p>2026/10/1〜10/20は8:00〜17:00。秋色の時期です。地上遊歩道は当日の状況・講習を確認してください。</p></details>
+<details><summary>🛣️ 知床の冬期閉鎖</summary><p>五湖ゲート〜硫黄山登山口は2026/10/1 10:00から冬期閉鎖。ただし知床五湖そのものの閉鎖を意味しません。</p></details>
+<details><summary>🎒 服装</summary><p>長袖・フリース・薄手ダウン・ウインドブレーカー・長ズボン・歩きやすい靴・手袋・折りたたみ傘がおすすめ。</p></details>
+<h3>✅ 出発前チェック</h3>
+<div class="check"><input type="checkbox"><span>航空券・ホテル・レンタカー予約確認</span></div>
+<div class="check"><input type="checkbox"><span>免許証・スマホ・モバイルバッテリー</span></div>
+<div class="check"><input type="checkbox"><span>防寒着・歩きやすい靴</span></div>
+<div class="check"><input type="checkbox"><span>白い道の通行情報確認</span></div>
+<div class="check"><input type="checkbox"><span>知床五湖・ヒグマ情報確認</span></div>
+<div class="notice">🔐 この公開版には、氏名・住所・電話番号・予約番号・航空券番号・決済情報などの個人情報を掲載していません。</div>
+</section>
+
+<section class="card">
+<h2>❤️ 30周年の旅</h2>
+<p>北海道は、予定通りに全部回ることよりも、二人で同じ景色を見て「来てよかったね」と言える時間が一番大切。</p>
+<p><b>安全第一・無理しない・ゆっくり楽しむ。</b></p>
+</section>
+<footer>北海道30周年旅行｜公開用安全版｜2026.10.08–10.11</footer>
+</main>
+<div class="bottom"><a href="#top"><span>🏠</span>トップ</a><a href="#day1"><span>🗓️</span>行程</a><a href="#info"><span>ℹ️</span>情報</a><a href="#info"><span>🎒</span>準備</a></div>
+<script>
+document.querySelectorAll('.check input').forEach((b,i)=>{const k='hokkaido30-safe-'+i;b.checked=localStorage.getItem(k)==='1';b.addEventListener('change',()=>localStorage.setItem(k,b.checked?'1':'0'))});
+</script>
+</body>
+</html>
